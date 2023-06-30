@@ -14,7 +14,7 @@ The data is available at https://www.kaggle.com/datasets/lakshmi25npathi/imdb-da
 
 ## Methodology
 
-The data is preprocessed by removing HTML tags, punctuation, and stop words. The data is then tokenized and converted to a sequence of integers. The data is then padded to a maximum length of 250. The data is then split into training and testing sets. The model is trained on the training set and evaluated on the testing set. The model is a sequential model with an embedding layer, an average pooling layer, and a dense layer. The model is compiled with the Adam optimizer and binary cross entropy loss. The model is trained for 30 epochs with a batch size of 512 and trained again for 30 epocs and increased batch size of 2048. The model achieves an accuracy of 0.88 on the testing set.
+The data is preprocessed by removing punctuation, and stop words. The data is then tokenized and converted to a sequence of integers. The data is then padded to a maximum length of 2048. The data is then split into training and testing sets. The model is trained on the training set and evaluated on the testing set. The model is a sequential model with an embedding layer, an average pooling layer, and a dense layer. The model is compiled with the Adam optimizer and binary cross entropy loss. The model is trained for 30 epochs with a batch size of 512 and trained again for 30 epocs with an increased batch size of 2048. The model achieves an accuracy of 0.88 on the testing set.
 
 ## Results
 
@@ -22,7 +22,7 @@ The model achieves an accuracy of 0.88 on the testing set.
 
 ## Conclusion
 
-The model achieves an accuracy of 0.88 on the testing set, which is a good result. The model could be improved by using a more complex model architecture and by using a pretrained embedding layer.
+The model achieves an accuracy of 0.88 on the testing set, which is a somewhat good result. The model could be improved by using a more complex model architecture and by using a pretrained embedding layer.
 
 ## What I learned
 
