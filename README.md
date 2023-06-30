@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is a sentiment analysis of the IMDB movie review dataset. The dataset contains 50,000 reviews, which are split into 40,000 reviews for training and 10,000 reviews for testing. The training and testing sets are balanced, meaning they contain an equal number of positive and negative reviews. The goal of this project is to train a model to predict whether a review is positive or negative.
+This project is a sentiment analysis of the IMDB movie review dataset. The dataset contains 50,000 reviews, which are split into 40,000 reviews for training and 10,000 reviews for testing. The training and testing sets are not balanced. The goal of this project is to train a model to predict whether a review is positive or negative.
 
 ## Purpose
 
